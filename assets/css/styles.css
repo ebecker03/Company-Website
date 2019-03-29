@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    background-color: rgb(206, 206, 206);
+}
+
+/* header */
+header {
+    background-image: linear-gradient(-45deg, #000, #26413c, #efe9e7);
+    width: calc(100% - 2px);
+    border: 1px solid black;
+}
+
+.name {
+    font-family: 'Rye', cursive;
+    font-size: 40px;
+    color: #d2d5d6;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* navBar */
+nav {
+    background-image: linear-gradient(45deg, rgb(116, 99, 99), #738f8a, #efe9e7);
+    border-bottom: 7px solid orange;
+    border-top: 7px solid orange;
+}
+.nav-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.links {
+    padding: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links:hover:not(.active) {
+    background-color: #26413c;
+}
+
+.active {
+    background-color: rgb(48, 48, 48);
+}
+
+/* main body content */
+
+/* main content */
+.content-container {
+    display: flex;
+    align-content: center;
+    margin: 20px 75px;
+    width: 90vw;
+}
+
+.main-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 75vw;
+}
+
+.subsection {
+    flex: 1 1 20%;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+/* side bar content */
+.side-bar {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 20vw;
+    background-color: black;
+}
+
+.side-section {
+    margin: 5px;
+    color: white;
+    border: 2px white solid;
+}
+
+.side-section:hover {
+    transition: width 2s;
+    width: 300px;
+    height: 300px;
+}
+
+/* footer */
+footer {
+    width: calc(100% - 22px);
+    background-image: linear-gradient(-45deg, rgb(116, 99, 99), #738f8a, #efe9e7);
+    border: 1px solid black;
+    margin-top: 3px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Fanwood Text', serif;
+    padding: 10px;
+    line-height: 0.5em;
+}
+
