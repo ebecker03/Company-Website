@@ -35,12 +35,9 @@ header {
     bottom: 35px;
 }
 
-
-
 /* navBar */
 nav {
     background-image: linear-gradient(45deg, rgb(116, 99, 99), #738f8a, #efe9e7);
-    /* background-image: url(assets/pictures/old-wood-original-file.jpg) height: 100px; width: 100px;; */
     border-bottom: 7px solid orange;
     border-top: 7px solid orange;
 }
@@ -83,34 +80,12 @@ a {
 
 /* main body content */
 
-/* main content */
-.content-container {
-    display: flex;
-    align-content: center;
-    margin: 20px 75px;
-    width: 90vw;
-}
-
-.main-content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 75vw;
-}
-
-.subsection {
-    flex: 1 1 20%;
-    border: 2px solid black;
-    margin: 5px;
-}
-
 /* side bar content */
 .side-bar {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+    float: left;
     width: 20vw;
     background-color: black;
+    margin: 10px;
 }
 
 .side-section {
@@ -125,6 +100,28 @@ a {
     height: 300px;
 }
 
+/* main content */
+.content-container {
+    display: flex;
+    align-content: center;
+    margin: 5px;
+    width: 77%;
+    float: left;
+}
+
+.main-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.subsection {
+    flex: 1 1 20%;
+    border: 2px solid black;
+    margin: 5px;
+}
+
 /* footer */
 footer {
     width: calc(100% - 22px);
@@ -136,5 +133,6 @@ footer {
     font-family: 'Fanwood Text', serif;
     padding: 10px;
     line-height: 0.5em;
+    clear: both;
 }
 
