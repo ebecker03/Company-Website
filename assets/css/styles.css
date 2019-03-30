@@ -25,16 +25,28 @@ nav {
     border-top: 7px solid orange;
 }
 .nav-container {
-    display: flex;
+    display: inline-flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+    width: 85%;
+}
+
+form {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 .links {
     padding: 20px;
 }
 
-.links a {
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+a {
     color: white;
     text-decoration: none;
 }
