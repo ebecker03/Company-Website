@@ -12,7 +12,7 @@ header {
 
 .name {
     font-family: 'Rye', cursive;
-    font-size: 60px;
+    font-size: 55px;
     color: #d8d8d8;
     text-align: center;
     margin-top: -20px;
@@ -24,13 +24,13 @@ header {
     opacity: 0.5;
 }
 
-.abslogo {
+.rellogo {
     position: relative;
     bottom: 20px;
     opacity: 0.75;
 }
 
-.abslogo1 {
+.rellogo1 {
     position: relative;
     bottom: 35px;
 }
@@ -54,6 +54,10 @@ form {
     flex-flow: row wrap;
     justify-content: flex-end;
     margin-bottom: 20px;
+}
+
+.search {
+    border-radius: 5px;
 }
 
 .links {
@@ -94,11 +98,11 @@ a {
     border: 2px white solid;
 }
 
-.side-section:hover {
+/* .side-section:hover {
     transition: width 2s;
     width: 300px;
     height: 300px;
-}
+} */
 
 /* main content */
 .content-container {
@@ -122,6 +126,25 @@ a {
     margin: 5px;
 }
 
+/* contact section */
+.contact {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin: auto;
+   text-align: left;
+}
+
+.form {
+    display: block;
+    margin: 10px;
+}
+
+#message {
+    width: calc(100% - 25px);
+    height: 100px;
+}
+
 /* footer */
 footer {
     width: calc(100% - 22px);
@@ -132,7 +155,7 @@ footer {
     font-size: 16px;
     font-family: 'Fanwood Text', serif;
     padding: 10px;
-    line-height: 0.5em;
+    line-height: 0.6em;
     clear: both;
 }
 
