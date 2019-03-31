@@ -53,15 +53,25 @@
                 <input class="form" type="text" name="last-name" id="last-name" placeholder="Last Name">
                 <label class="form" for="email">Email:</label>
                 <input class="form" type="email" name="email" id="email" placeholder="Email">
-                <label class="form" for="message">Message:</label>
-                <textarea class="form" id="message"></textarea>
                 <p>To better serve you, please tell us why you are contacting us.</p>
-                <label for="question">Question:</label>
-                <input type="radio" id="question" name="reason" checked="checked">
-                <label for="suggestion">Suggestion:</label>
-                <input type="radio" id="suggestion" name="reason">
-                <label for="complaint">Complaint:</label>
-                <input type="radio" id="complaint" name="reason">
+                <div class="reason">
+                        <div class="radio-styling">
+                            <label for="question">Question:</label>
+                            <input type="radio" id="question" name="reason" checked="checked">
+                        </div>
+                        <div class="radio-styling">
+                            <label for="suggestion">Suggestion:</label>
+                            <input type="radio" id="suggestion" name="reason">
+                        </div>
+                        <div class="radio-styling">
+                            <label for="complaint">Complaint:</label>
+                            <input type="radio" id="complaint" name="reason">
+                        </div>
+                <label class="message" for="message">Message:</label>
+                <textarea class="form" id="message"></textarea>
+                
+                
+                </div>
             </fieldset>
         </form>
     </div>
@@ -75,7 +85,8 @@
                 Platte Center, Ne 68653
             </p>
             <p>Tel: (402) 244-2890</p>
-            <p>Email: Contact@LostCreekWoods.com &copy 2019</p>
+            <p>Email: Contact@LostCreekWoods.com</p>
+            Copyright&copy 2019
         </div>
     </footer>
 </body>
