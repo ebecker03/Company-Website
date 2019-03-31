@@ -214,6 +214,10 @@ a {
     margin-bottom: 10px;
 }
 
+.submit-button {
+    margin: 10px;
+}
+
 /* footer */
 footer {
     width: calc(100% - 22px);
