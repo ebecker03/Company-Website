@@ -119,10 +119,11 @@ a {
 }
 
 .main-heading {
-    width: 100%;
+    flex: 1 1 100%;
+    /* width: 100%; */
     background-image: url(../pictures/old-wood-original-file.jpg);
     margin: 5px;
-    height: 10vw;
+    /* height: 10vw; */
     text-align: center;
     color: white;
     font-family: 'Pacifico', cursive;
